@@ -11,7 +11,7 @@ class TemplateRenderer
     private $template;
 
     /**
-     * @param $fileName
+     * @param string $fileName
      *
      * @return TemplateRenderer
      */
@@ -23,7 +23,7 @@ class TemplateRenderer
     }
 
     /**
-     * @param $value
+     * @param string $value
      *
      * @return TemplateRenderer
      */
